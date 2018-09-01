@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pantalla modal</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="./index.css">
+    </head>
+    <body>
+        <div class="header"> 
+            <div class="title">
+                <img src="https://www.clickfunnels.com/images/light.png" width="150">   <!--Aquí va la imagen del título que dice Navigator etc... -->
+            </div>
+        </div>
+        <div class="body">
+            <h1>Discover The #1 Trick To Boost Your Conversion Rates...</h1><br>  <!--Aquí va la primer parte del título -->
+            <h3>...Even without changing a single thing about your landing page!</h3>  <!--Aquí va la segunda parte del título -->
+            <div class="popup">
+                <h2>Get Started RIGHT AWAY - Download The Free Report...</h2> <!--Aquí va la el título del contenedor blanco -->
+                <div class="button-popup">
+                    <a href="#" data-toggle="modal" data-target="#popup-modal">CLICK HERE TO START NOW!</a>  <!-- aquí el texto del botón naranja -->
+                </div>
+                <h4>We respect your privacy and have a ZERO TOLERANCE for spam.</h4>   <!-- aquí el texto que está debajo del botón naranja -->
+            </div>
+        </div>
+        <div class="footer">
+            <p>Copyright 2018 All Rights Reserved.</p><br>   <!-- aquí el texto que está más abajo de la pantalla -->
+            <a href="#">Privacy Policy</a> |                 <!-- aquí el link al las politicas -->
+            <a href="#">Terms and Condition</a>              <!-- aquí el link a los términos -->
+        </div>
+        <div class="modal fade" id="popup-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-body">
+                    <p>Sign Up To Get The Full Course Right Now!</p>            <!-- aquí el título del popup -->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input placeholder="Enter Your Full Name" class="input-modal"/>    <!-- aquí el texto de los recuadros "enter your full name" -->
+                        </div>
+                        <div class="col-md-6">
+                            <input placeholder="Enter Your Email Address" class="input-modal"/> <!-- aquí el texto de los recuadros "enter your email address" -->
+                        </div>
+                    </div>
+                    <div class="button-modal">
+                        <a href="#">Yes, I am ready to get started today!</a>           <!-- aquí el texto del botón azul -->
+                    </div>
+                </div>
+                  <div class="close-modal" data-toggle="modal" data-target="#popup-modal">
+                      <img src="https://www.clickfunnels.com/images/closemodal.png" alt="">
+                  </div>
+              </div>
+            </div>
+        </div>
+    </body>
+</html>

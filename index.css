@@ -1,0 +1,128 @@
+.header{
+    padding: 20px;
+    margin: 0px;
+    border-color: rgba(255, 255, 255, 0.109804);
+    background-color: rgb(35, 35, 35); 
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.body{
+    padding: 40px;
+    text-align: center;
+    border-color: rgba(0, 0, 0, 0.14902);
+    background-color: rgb(61, 108, 168);
+    border-width: 3px;
+    border-style: solid;
+}
+
+.body h1{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    font-size: 62px;
+}
+
+.body h3{
+    font-style: italic;
+    color: rgb(167, 201, 243);
+    font-size: 32px;
+}
+
+.popup{
+    margin-left: 200px;
+    margin-right: 100px;
+    padding: 30px;
+    border-color: rgb(54, 92, 140);
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: 70px;
+}
+
+.popup h2{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.button-popup{
+    width: 100%;
+    background-color: rgb(255, 146, 35);
+    color: rgb(255, 255, 255);
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+    border-left: none;
+    border-right: none;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 27px;
+}
+
+.button-popup a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.popup h4{
+    color: rgba(47, 47, 47, 0.690196);
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 40px;
+    border-color: rgba(47, 47, 47, 0.156863);
+    background-color: rgb(239, 239, 239);
+    border-width: 3px;
+    border-style: solid;
+    text-align: center;
+}
+
+.modal-content{
+    border-color: rgb(28, 28, 28);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.modal-content p{
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.input-modal{
+    border-radius: 5px;
+    background-color: #F1F1F1;
+    border: 3px solid rgba(0,0,0,0.2);
+    font-size: 16px;
+    padding: 12px 18px;
+}
+
+.button-modal{
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding: 10px;
+    background-color: rgb(14, 141, 199);
+    width: 100%;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.button-modal a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 21px;
+}
+
+.close-modal{
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    cursor: pointer;
+}
